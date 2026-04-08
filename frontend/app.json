@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "TodoApp",
+    "slug": "todo-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.todoapp.mobile"
+    },
+    "android": {},
+    "web": {},
+    "scheme": "todoapp",
+    "plugins": ["expo-router", "expo-secure-store"]
+  }
+}
