@@ -16,8 +16,7 @@ app.use(cookieParser());
 app.use(
   cors({
     origin: "*",
-    credentials: true,
-  })
+  }),
 );
 
 app.use("/api/auth", require("./routes/authRoutes"));
